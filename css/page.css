@@ -1,0 +1,863 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend {
+	background: transparent;
+	border: 0;
+	vertical-align: baseline;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    min-height: 100%;
+    height: 100%;
+
+}
+
+
+
+	body {
+		background-color: #FFFFFF;
+	}
+
+
+.pageborder {
+	position:relative;
+	background-color: #606060;
+	padding:5px 5px;  
+	}
+
+.pageborder .divpage {
+	position:relative;
+	padding:5px 5px;
+	background-color: #FFFFFF;	
+	}
+
+.pageborder.divpage .appcontainer {
+	position:relative;
+	background-color: #E6E6E6;	
+	padding:5px 5px;
+
+	}
+
+.news{
+background-color: #FFFFFF;	
+position:relative;
+display:inline-block;
+}
+.saleplot{
+background-color: #FFFFFF;	
+position:relative;
+display:inline-block;
+}
+.solar{
+background-color: #FFFFFF;	
+position:relative;
+display:inline-block;
+}
+.cctv{
+background-color: #FFFFFF;
+position:relative;
+display:inline-block;	
+}
+.cleanenergy{
+background-color: #FFFFFF;	
+position:relative;
+display:inline-block;
+}
+.wireless{
+background-color: #FFFFFF;
+position:relative;
+display:inline-block;	
+}
+.diykits{
+background-color: #FFFFFF;	
+position:relative;
+display:inline-block;
+}
+.greengadgets{
+background-color: #FFFFFF;	
+position:relative;
+display:inline-block;
+}
+.tools{
+background-color: #FFFFFF;	
+position:relative;
+display:inline-block;
+}
+
+
+
+
+/*----------------------------------------------------------Responsive(400)-----------------------------------------------------------*/
+
+
+/* For Mobile */
+@media screen and (max-width: 400px) {
+    
+	
+
+/*news div*/
+.news{
+	width:100%;
+background-color: #000000;	
+	}
+
+	.news .newsborder {
+	background-color: #AC4444;
+	padding:5px 5px;
+	color:#FFFFFF;
+	}
+	.news .newsborder .newsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*saleplot div*/
+.saleplot{
+	width:100%;
+background-color: #000000;	
+margin-top:5px;
+	}
+	.saleplot .saleplotborder {
+	background-color: #44AC49;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.saleplot .saleplotborder .saleplotdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*solar div*/
+.solar{
+	width:100%;
+background-color: #000000;	
+	margin-top:5px;
+	}
+	.solar .solarborder {
+	background-color: #A9AC44;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.solar .solarborder .solardivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*cctv div*/
+.cctv{
+	width:100%;
+background-color: #000000;	
+margin-top:5px;
+	}
+	.cctv .cctvborder {
+	background-color: #AC44AC;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.cctv .cctvborder .cctvdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*cleanenergy div*/
+.cleanenergy{
+	width:100%;
+background-color: #000000;
+margin-top:5px;	
+	}
+	.cleanenergy .cleanenergyborder {
+	background-color: #4447AC;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.cleanenergy .cleanenergyborder .cleanenergydivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*wireless div*/
+.wireless{
+	width:100%;
+background-color: #000000;	
+margin-top:5px;
+	}
+	.wireless .wirelessborder {
+	background-color: #8144AC;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.wireless .wirelessborder .wirelessdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*diykits div*/
+.diykits{
+	width:100%;
+background-color: #000000;	
+	margin-top:5px;
+	}
+	.diykits .diykitsborder {
+	background-color: #44AC84;	
+	padding:5px 5px;
+	color:#FFFFFF;
+
+	}
+	.diykits .diykitsborder .diykitsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*greengadgets div*/
+.greengadgets{
+	width:100%;
+background-color: #000000;	
+margin-top:5px;
+	}
+	.greengadgets .greengadgetsborder {
+	background-color: #50AC44;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.greengadgets .greengadgetsborder .greengadgetsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*tools div*/
+.tools{
+	width:100%;
+background-color: #000000;	
+	margin-top:5px;
+	}
+	.tools .toolsborder {
+	background-color: #AC6844;	
+	padding:5px 5px;
+	color:#FFFFFF;
+
+	}
+	.tools .toolsborder .toolsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+}
+
+/*----------------------------------------------------------Responsive(540)-----------------------------------------------------------*/
+
+@media screen and (min-width:400px) and (max-width: 540px) {
+    
+
+
+/*news div*/
+
+	.news{
+	width:50%;
+	float:left;
+background-color: #000000;	
+	}
+
+	.news .newsborder {
+	background-color: #AC4444;
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.news .newsborder .newsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*saleplot div*/
+
+	.saleplot{
+	width:48%;
+	margin-left:5px;
+	background-color: #000000;	
+    margin-top:0;
+	
+	}
+	.saleplot .saleplotborder {
+	background-color: #44AC49;	
+	padding:5px 5px;
+	color:#FFFFFF;
+
+
+	}
+	.saleplot .saleplotborder .saleplotdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*solar div*/
+	.solar{
+	width:50%;
+	float:left;
+	margin-top:5px;
+	}
+	.solar .solarborder {
+	background-color: #A9AC44;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+
+	}
+	.solar .solarborder .solardivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*cctv div*/
+	
+	.cctv {
+	width:48%;
+	margin-left:5px;
+	background-color: #000000;	
+	margin-top:5px;
+	}
+
+
+	.cctv .cctvborder {
+	background-color: #AC44AC;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	margin-top:0px;
+	}
+	.cctv .cctvborder .cctvdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*cleanenergy div*/
+	
+	.cleanenergy{
+	width:50%;
+	float:left;	
+	margin-top:5px;
+	}
+
+	.cleanenergy .cleanenergyborder {
+	background-color: #4447AC;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+
+	}
+	.cleanenergy .cleanenergyborder .cleanenergydivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*wireless div*/
+.wireless {
+	width:48%;
+	margin-left:5px;
+	background-color: #000000;	
+	margin-top:5px;
+	}
+	.wireless .wirelessborder {
+	background-color: #8144AC;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.wireless .wirelessborder .wirelessdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*diykits div*/
+	
+	.diykits{
+	width:50%;
+	float:left;
+margin-top:5px;
+	}
+
+	.diykits .diykitsborder {
+	background-color: #44AC84;	
+	padding:5px 5px;
+	color:#FFFFFF;
+
+
+	}
+	.diykits .diykitsborder .diykitsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*greengadgets div*/
+.greengadgets {
+	width:48%;
+	margin-left:5px;
+	background-color: #000000;	
+	margin-top:5px;
+	}
+	.greengadgets .greengadgetsborder {
+	background-color: #50AC44;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	margin-top:0px;
+	}
+	.greengadgets .greengadgetsborder .greengadgetsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*tools div*/
+	.tools{
+	width:99%;
+	margin-top:5px;
+	}
+	.tools .toolsborder {
+	background-color: #AC6844;	
+	padding:5px 5px;
+	color:#FFFFFF;
+
+	}
+	.tools .toolsborder .toolsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+
+
+}
+
+/*----------------------------------------------------------Responsive(780)-----------------------------------------------------------*/
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    
+
+/*news div*/
+
+	.news{
+	width:50%;
+	float:left;
+background-color: #000000;	
+	}
+
+	.news .newsborder {
+	background-color: #AC4444;
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.news .newsborder .newsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*saleplot div*/
+
+	.saleplot{
+	width:48%;
+	margin-left:5px;
+	background-color: #000000;	
+    margin-top:0;
+	
+	}
+	.saleplot .saleplotborder {
+	background-color: #44AC49;	
+	padding:5px 5px;
+	color:#FFFFFF;
+
+
+	}
+	.saleplot .saleplotborder .saleplotdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*solar div*/
+	.solar{
+	width:99%;
+	
+	margin-top:5px;
+	}
+	.solar .solarborder {
+	background-color: #A9AC44;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+
+	}
+	.solar .solarborder .solardivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*cctv div*/
+	
+	.cctv {
+	width:48%;
+	margin-left:5px;
+	background-color: #000000;	
+	margin-top:5px;
+	}
+
+
+	.cctv .cctvborder {
+	background-color: #AC44AC;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	margin-top:0px;
+	}
+	.cctv .cctvborder .cctvdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*cleanenergy div*/
+	
+	.cleanenergy{
+	width:50%;
+	float:left;	
+	margin-top:5px;
+	}
+
+	.cleanenergy .cleanenergyborder {
+	background-color: #4447AC;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+
+	}
+	.cleanenergy .cleanenergyborder .cleanenergydivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*wireless div*/
+.wireless {
+	width:99%;
+	
+	background-color: #000000;	
+	margin-top:5px;
+	}
+	.wireless .wirelessborder {
+	background-color: #8144AC;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.wireless .wirelessborder .wirelessdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*diykits div*/
+	
+	.diykits{
+	width:50%;
+	float:left;
+margin-top:5px;
+	}
+
+	.diykits .diykitsborder {
+	background-color: #44AC84;	
+	padding:5px 5px;
+	color:#FFFFFF;
+
+
+	}
+	.diykits .diykitsborder .diykitsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*greengadgets div*/
+.greengadgets {
+	width:48%;
+	margin-left:5px;
+	background-color: #000000;	
+	margin-top:5px;
+	}
+	.greengadgets .greengadgetsborder {
+	background-color: #50AC44;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	margin-top:0px;
+	}
+	.greengadgets .greengadgetsborder .greengadgetsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*tools div*/
+	.tools{
+	width:99%;
+	margin-top:5px;
+	}
+	.tools .toolsborder {
+	background-color: #AC6844;	
+	padding:5px 5px;
+	color:#FFFFFF;
+
+	}
+	.tools .toolsborder .toolsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+
+
+
+}
+
+/*----------------------------------------------------------Responsive(4800)-----------------------------------------------------------*/
+/* For Jumbo Screens */
+@media screen and (min-width: 780px) and (max-width: 4800px) {
+   
+/*news div*/
+
+	.news{
+	width:33%;
+	float:left;
+background-color: #000000;	
+	}
+
+	.news .newsborder {
+	background-color: #AC4444;
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.news .newsborder .newsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*saleplot div*/
+
+	.saleplot{
+	width:33%;
+	margin-left:5px;
+	background-color: #000000;	
+    margin-top:0px;
+	
+	}
+	.saleplot .saleplotborder {
+	background-color: #44AC49;	
+	padding:5px 5px;
+	color:#FFFFFF;
+
+
+	}
+	.saleplot .saleplotborder .saleplotdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*solar div*/
+	.solar{
+	width:32%;
+	margin-left:5px;
+	background-color: #000000;	
+    margin-top:0px;
+	}
+	.solar .solarborder {
+	background-color: #A9AC44;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+
+	}
+	.solar .solarborder .solardivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*cctv div*/
+	
+	.cctv {
+	width:33%;
+	float:left;
+background-color: #000000;	
+margin-top:5px;
+	}
+
+
+	.cctv .cctvborder {
+	background-color: #AC44AC;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.cctv .cctvborder .cctvdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*cleanenergy div*/
+	
+	.cleanenergy{
+	width:33%;
+	margin-left:5px;
+	background-color: #000000;	
+    margin-top:5px;
+	}
+
+	.cleanenergy .cleanenergyborder {
+	background-color: #4447AC;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+
+	}
+	.cleanenergy .cleanenergyborder .cleanenergydivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*wireless div*/
+.wireless {
+	width:32%;
+	margin-left:5px;
+	background-color: #000000;	
+    margin-top:5px;
+	}
+	.wireless .wirelessborder {
+	background-color: #8144AC;	
+	padding:5px 5px;
+	color:#FFFFFF;
+	
+	}
+	.wireless .wirelessborder .wirelessdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*diykits div*/
+	
+	.diykits{
+	width:33%;
+	float:left;
+background-color: #000000;	
+margin-top:5px;
+	}
+
+	.diykits .diykitsborder {
+	background-color: #44AC84;	
+	padding:5px 5px;
+	color:#FFFFFF;
+
+
+	}
+	.diykits .diykitsborder .diykitsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*greengadgets div*/
+.greengadgets {
+		width:33%;
+	margin-left:5px;
+	background-color: #000000;	
+    margin-top:5px;
+	}
+	.greengadgets .greengadgetsborder {
+	background-color: #50AC44;	
+	padding:5px 5px;
+	color:#FFFFFF;
+		}
+	.greengadgets .greengadgetsborder .greengadgetsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+/*tools div*/
+	.tools{
+		width:32%;
+	margin-left:5px;
+	background-color: #000000;	
+    margin-top:5px;
+	}
+	.tools .toolsborder {
+	background-color: #AC6844;	
+	padding:5px 5px;
+	color:#FFFFFF;
+
+	}
+	.tools .toolsborder .toolsdivpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
