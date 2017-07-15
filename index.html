@@ -3,15 +3,21 @@
 
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 
 <title>Vizhi Green Expressions</title>
-<link rel="stylesheet" type="text/css" media="all" href="css/page.css">
+<link id ="css_page" rel="stylesheet" type="text/css" media="all" href="css/page.css">
 <script type="text/javascript" src="data/common.js"></script>
 <script type="text/javascript" src="data/news.js"></script>
-
-
-
+<script type="text/javascript" src="data/sales.js"></script>
+<script type="text/javascript" src="data/solar.js"></script>
+<script type="text/javascript" src="data/cctv.js"></script>
+<script type="text/javascript" src="data/cleanenergy.js"></script>
+<script type="text/javascript" src="data/diykits.js"></script>
+<script type="text/javascript" src="data/greengadgets.js"></script>
+<script type="text/javascript" src="data/tools.js"></script>
+<script type="text/javascript" src="data/wireless.js"></script>
 </head>
 
 <body>
@@ -22,17 +28,17 @@
 	<div class="newsborder">
 		News
 		<div class="newsdivpage">			
-<img id="newsimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/news.svg"/>
-<p id="newstext" style="display:inline-block;vertical-align: top; width:40%;font-size:75%;color:#000000;word-wrap: break-word;"></p>
+		<a id="newslink" style="cursor: pointer;" onclick="togglepage('news')"><img id="newsimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/news.svg"/></a>
+		<div id="newsboard" style="display:inline-block;vertical-align: top; width:45%;"><p id="newstext"  style="font-size:75%;color:#000000;word-wrap: break-word;"></p></div>
 		</div>
 	</div>
 </div>
-<div id="saleplot" class="saleplot">
-	<div class="saleplotborder">
+<div id="sales" class="sales">
+	<div class="salesborder">
 		Sale Plot
-		<div class="saleplotdivpage">
-			<img id="saleplotimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/saleplot.svg"/>
-			<p id="saleplottext" style="display:inline-block;vertical-align: top; width:40%;font-size:75%;color:#000000;word-wrap: break-word;"></p>
+		<div class="salesdivpage">
+			<a id="saleslink" style="cursor: pointer;" onclick="togglepage('sales')"><img id="salesimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/sales.svg"/></a>
+	 <div id="salesboard" style="display:inline-block;vertical-align: top; width:45%;"><p id="salestext" style="font-size:75%;color:#000000;word-wrap: break-word;"></p></div>
 		</div>
 	</div>
 </div>
@@ -41,8 +47,8 @@
 	<div class="solarborder">
 		Solar
 		<div class="solardivpage">
-			<img id="solarimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/solar.svg"/>
-			<p id="solartext" style="display:inline-block;vertical-align: top; width:40%;font-size:75%;color:#000000;word-wrap: break-word;"></p>
+			<a id="solarlink" style="cursor: pointer;" onclick="togglepage('solar')"><img id="solarimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/solar.svg"/></a>
+			<div id="solarboard" style="display:inline-block;vertical-align: top; width:45%;"><p id="solartext" style="font-size:75%;color:#000000;word-wrap: break-word;"></p></div>
 		</div>
 	</div>
 </div>
@@ -51,8 +57,8 @@
 	<div class="cctvborder">
 		CCTV
 		<div class="cctvdivpage">
-			<img id="cctvimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/cctv.svg"/>
-			<p id="cctvtext" style="display:inline-block;vertical-align: top; width:40%;font-size:75%;color:#000000;word-wrap: break-word;"></p>
+			<a id="solarlink" style="cursor: pointer;" onclick="togglepage('cctv')"><img id="cctvimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/cctv.svg"/></a>
+			<div id="cctvboard" style="display:inline-block;vertical-align: top; width:45%;"><p id="cctvtext" style="font-size:75%;color:#000000;word-wrap: break-word;"></p></div>
 		</div>
 	</div>
 </div>
@@ -61,8 +67,8 @@
 	<div class="cleanenergyborder">
 		Clean Energy
 		<div class="cleanenergydivpage">
-			<img id="cleanenergyimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/cleanenergy.svg"/>
-			<p id="cleanenergytext" style="display:inline-block;vertical-align: top; width:40%;font-size:75%;color:#000000;word-wrap: break-word;"></p>
+			<a id="solarlink" style="cursor: pointer;" onclick="togglepage('cleanenergy')"><img id="cleanenergyimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/cleanenergy.svg"/></a>
+			<div id="cleanenergyboard" style="display:inline-block;vertical-align: top; width:45%;"><p id="cleanenergytext" style="font-size:75%;color:#000000;word-wrap: break-word;"></p></div>
 		</div>
 	</div>
 </div>
@@ -71,8 +77,8 @@
 	<div class="wirelessborder">
 		Wireless
 		<div class="wirelessdivpage">
-			<img id="wirelessimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/wireless.svg"/>
-			<p id="wirelesstext" style="display:inline-block;vertical-align: top; width:40%;font-size:75%;color:#000000;word-wrap: break-word;"></p>
+			<a id="solarlink" style="cursor: pointer;" onclick="togglepage('wireless')"><img id="wirelessimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/wireless.svg"/></a>
+			<div id="wirelessboard" style="display:inline-block;vertical-align: top; width:45%;"><p id="wirelesstext" style="font-size:75%;color:#000000;word-wrap: break-word;"></p></div>
 		</div>
 	</div>
 </div>
@@ -81,8 +87,8 @@
 	<div class="diykitsborder">
 		DIY Kits
 		<div class="diykitsdivpage">
-			<img id="diykitsimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/diykits.svg"/>
-			<p id="diykitstext" style="display:inline-block;vertical-align: top; width:40%;font-size:75%;color:#000000;word-wrap: break-word;"></p>
+			<a id="solarlink" style="cursor: pointer;" onclick="togglepage('diykits')"><img id="diykitsimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/diykits.svg"/></a>
+			<div id="diykitsboard" style="display:inline-block;vertical-align: top; width:45%;"><p id="diykitstext"style="font-size:75%;color:#000000;word-wrap: break-word;"></p></div>
 		</div>
 	</div>
 </div>
@@ -91,8 +97,8 @@
 	<div class="greengadgetsborder">
 		Green Gadgets
 		<div class="greengadgetsdivpage">
-			<img id="greengadgetsimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/greengadgets.svg"/>
-			<p id="greengadgetstext" style="display:inline-block;vertical-align: top; width:40%;font-size:75%;color:#000000;word-wrap: break-word;"></p>
+			<a id="solarlink" style="cursor: pointer;" onclick="togglepage('greengadgets')"><img id="greengadgetsimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/greengadgets.svg"/></a>
+			<div id="greengadgetsboard" style="display:inline-block;vertical-align: top; width:45%;"><p id="greengadgetstext" style="font-size:75%;color:#000000;word-wrap: break-word;"></p></div>
 		</div>
 	</div>
 </div>
@@ -101,8 +107,8 @@
 	<div class="toolsborder">
 		Tools
 		<div class="toolsdivpage">
-			<img id="toolsimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/tools.svg"/>
-			<p id="toolstext" style="display:inline-block;vertical-align: top; width:40%;font-size:75%;color:#000000;word-wrap: break-word;"></p>
+			<a id="solarlink" style="cursor: pointer;" onclick="togglepage('tools')"><img id="toolsimg" style="display:inline-block;vertical-align: top;width:50%;" src="images/tools.svg"/></a>
+			<div id="toolsboard" style="display:inline-block;vertical-align: top; width:45%;"><p id="toolstext" style="font-size:75%;color:#000000;word-wrap: break-word;"></p></div>
 		</div>
 	</div>
 </div>
@@ -111,10 +117,24 @@
 
 </div></div>
 
+<input type="hidden" id="focussed" name="viewpage" value="none">
+<input type="hidden" id="divwidth" name="divwidth" value="100%">
 <script>
+
+var news_si = 0;
+var sales_si = 0;
+var solar_si = 0;
+var cctv_si = 0;
+var cleanenergy_si = 0;
+var diykits_si = 0;
+var wireless_si = 0;
+var greengadgets_si = 0;
+var tools_si = 0;
+var newspage = 0;
+var existing;
 (function () {
     document.getElementById("newstext").innerHTML = news; //data from common.js
-document.getElementById("saleplottext").innerHTML = saleplot;
+document.getElementById("salestext").innerHTML = sales;
 document.getElementById("solartext").innerHTML = solar;
 document.getElementById("cctvtext").innerHTML = cctv;
 document.getElementById("cleanenergytext").innerHTML = cleanenergy;
@@ -122,11 +142,515 @@ document.getElementById("wirelesstext").innerHTML = wireless;
 document.getElementById("diykitstext").innerHTML = diykits;
 document.getElementById("greengadgetstext").innerHTML = greengadgets;
 document.getElementById("toolstext").innerHTML = tools;
+showSlides();
 })();
+
+
+
+function showSlides() {
+   
+	//news
+
+    var newsjson = news_slides;
+    var newsimgelement = document.getElementById("newsimg");
+	var news_files =[];
+
+	for (var k1 in newsjson){
+		news_files.push(newsjson[k1]);
+    }
+
+    news_si++;
+    if (news_si> news_files.length) {news_si = 1}
+    newsimgelement.src = news_files[news_si-1];
+
+	//sales
+
+    var salesjson = sales_slides;
+    var salesimgelement = document.getElementById("salesimg");
+	var sales_files =[];
+
+	for (var k2 in salesjson){
+		sales_files.push(salesjson[k2]);
+    }
+
+    sales_si++;
+    if (sales_si> sales_files.length) {sales_si = 1}
+    salesimgelement.src = sales_files[sales_si-1];
+
+
+	//solar
+
+    var solarjson = solar_slides;
+    var solarimgelement = document.getElementById("solarimg");
+	var solar_files =[];
+
+	for (var k3 in solarjson){
+		solar_files.push(solarjson[k3]);
+    }
+
+    solar_si++;
+    if (solar_si> solar_files.length) {solar_si = 1}
+    solarimgelement.src = solar_files[solar_si-1];
+
+	//cctv
+
+    var cctvjson = cctv_slides;
+    var cctvimgelement = document.getElementById("cctvimg");
+	var cctv_files =[];
+
+	for (var k4 in cctvjson){
+		cctv_files.push(cctvjson[k4]);
+    }
+
+    cctv_si++;
+    if (cctv_si> cctv_files.length) {cctv_si = 1}
+    cctvimgelement.src = cctv_files[cctv_si-1];
+
+	//cleanenergy
+
+    var cleanenergyjson = cleanenergy_slides;
+    var cleanenergyimgelement = document.getElementById("cleanenergyimg");
+	var cleanenergy_files =[];
+
+	for (var k5 in cleanenergyjson){
+		cleanenergy_files.push(cleanenergyjson[k5]);
+    }
+
+    cleanenergy_si++;
+    if (cleanenergy_si> cleanenergy_files.length) {cleanenergy_si = 1}
+    cleanenergyimgelement.src = cleanenergy_files[cleanenergy_si-1];
+
+
+	//wireless
+
+    var wirelessjson = wireless_slides;
+    var wirelessimgelement = document.getElementById("wirelessimg");
+	var wireless_files =[];
+
+	for (var k6 in wirelessjson){
+		wireless_files.push(wirelessjson[k6]);
+    }
+
+    wireless_si++;
+    if (wireless_si> wireless_files.length) {wireless_si = 1}
+    wirelessimgelement.src = wireless_files[wireless_si-1];
+
+	//diykits
+
+    var diykitsjson = diykits_slides;
+    var diykitsimgelement = document.getElementById("diykitsimg");
+	var diykits_files =[];
+
+	for (var k7 in diykitsjson){
+		diykits_files.push(diykitsjson[k7]);
+    }
+
+    diykits_si++;
+    if (diykits_si> diykits_files.length) {diykits_si = 1}
+    diykitsimgelement.src = diykits_files[diykits_si-1];
+
+	//greengadgets
+
+    var greengadgetsjson = greengadgets_slides;
+    var greengadgetsimgelement = document.getElementById("greengadgetsimg");
+	var greengadgets_files =[];
+
+	for (var k8 in greengadgetsjson){
+		greengadgets_files.push(greengadgetsjson[k8]);
+    }
+
+    greengadgets_si++;
+    if (greengadgets_si> greengadgets_files.length) {greengadgets_si = 1}
+    greengadgetsimgelement.src = greengadgets_files[greengadgets_si-1];
+
+
+	//tools
+
+    var toolsjson = tools_slides;
+    var toolsimgelement = document.getElementById("toolsimg");
+	var tools_files =[];
+
+	for (var k9 in toolsjson){
+		tools_files.push(toolsjson[k9]);
+    }
+
+    tools_si++;
+    if (tools_si> tools_files.length) {tools_si = 1}
+    toolsimgelement.src = tools_files[tools_si-1];
+
+
+
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+} 
+
+function togglepage(thispage){
+
+	if(document.getElementById("focussed").value == "none"){
+
+		var w = document.getElementById(thispage).clientWidth;
+		document.getElementById("divwidth").value = w;
+		showpage(thispage);
+		document.getElementById("focussed").value = thispage;
+	}else{
+	 hidepage(thispage);
+	document.getElementById("focussed").value = "none";
+	}
+}
+
+function showpage(pagename){
+	switch (pagename){
+
+	case "news" :
+			document.getElementById("sales").style.display = "none";
+			document.getElementById("solar").style.display = "none";
+			document.getElementById("news").style.display = "block";
+			document.getElementById("news").style.width = "100%";
+			document.getElementById("newstext").style.fontSize = "200%";
+			var nb = document.getElementById("newsboard");
+			/*var el = document.createElement('p');
+				el.style.color = "black";
+    			el.innerText = 'This is my list item number ';
+    		nb.appendChild(el);*/
+
+			existing = nb.innerHTML;
+		
+			for(var ne in news_contents){
+				var vals = news_contents[ne];
+              if(ne == "Products") nb.innerHTML = existing + "<p style='color:black;'><strong>" + vals + "</strong></p>" ;
+			}		
+			 
+			break;
+	case "sales" :
+			document.getElementById("news").style.display = "none";
+			document.getElementById("solar").style.display = "none";
+			document.getElementById("sales").style.display = "block";
+			document.getElementById("sales").style.width = "100%";
+			document.getElementById("salestext").style.fontSize = "200%";
+			var sb = document.getElementById("salesboard");
+			existing = sb.innerHTML;
+			var htmlstr;
+			for(var se in sales_contents){
+				var vals = sales_contents[se];
+				var count =1;
+				if(se == "list"){
+					htmlstr ="<table style='color:black;margin-left:auto;margin-right:auto;'><caption>Solar PV Modules</caption>";
+					htmlstr += "<tr><th>Sl.No</th><th>Model</th><th>PV Watts</th><th>Price</th></tr>";	
+					for(var se1 in vals){
+					 arr = vals[se1];
+					 htmlstr = htmlstr + "<tr><td>"+ count + "</td><td>" + se1 + "</td><td>" + arr[0] + "</td><td>" + arr[1] + "</td><tr>";			 count++;			
+					}			  	
+				    htmlstr = htmlstr + "</table><br>";
+					
+				}else if(se == "promo"){
+				    htmlstr = htmlstr + "<p style='color:black;'><strong>" + vals + "</strong></p>" ;
+				}				
+
+
+			}	
+		
+			sb.innerHTML = existing + htmlstr;
+			break;
+	case "solar" :
+			document.getElementById("news").style.display = "none";
+			document.getElementById("sales").style.display = "none";
+			document.getElementById("solar").style.display = "block";
+			document.getElementById("solar").style.width = "100%";
+			document.getElementById("solartext").style.fontSize = "200%";
+			var sb = document.getElementById("solarboard");
+			existing = sb.innerHTML;
+			var htmlstr;
+			for(var se in solar_contents){
+				var vals = solar_contents[se];
+				var count =1;
+				if(se == "list"){
+					htmlstr ="<table style='color:black;margin-left:auto;margin-right:auto;'><caption>Solar PV Modules</caption>";
+					htmlstr += "<tr><th>Sl.No</th><th>Model</th><th>PV Watts</th><th>Price</th></tr>";	
+					for(var se1 in vals){
+					 arr = vals[se1];
+					 htmlstr = htmlstr + "<tr><td>"+ count + "</td><td>" + se1 + "</td><td>" + arr[0] + "</td><td>" + arr[1] + "</td><tr>";			 count++;			
+					}			  	
+				    htmlstr = htmlstr + "</table><br>";
+					
+				}else if(se == "promo"){
+				    htmlstr = htmlstr + "<p style='color:black;'><strong>" + vals + "</strong></p>" ;
+				}				
+
+
+			}	
+		
+			sb.innerHTML = existing + htmlstr;
+
+			break;
+	case "cctv" :
+			document.getElementById("cleanenergy").style.display = "none";
+			document.getElementById("wireless").style.display = "none";
+			document.getElementById("cctv").style.display = "block";
+			document.getElementById("cctv").style.width = "100%";
+			document.getElementById("cctvtext").style.fontSize = "200%";
+			var sb = document.getElementById("cctvboard");
+			existing = sb.innerHTML;
+			var htmlstr;
+			for(var se in cctv_contents){
+				var vals = cctv_contents[se];
+				var count =1;
+				if(se == "list"){
+					htmlstr ="<table style='color:black;margin-left:auto;margin-right:auto;'><caption>Solar PV Modules</caption>";
+					htmlstr += "<tr><th>Sl.No</th><th>Model</th><th>PV Watts</th><th>Price</th></tr>";	
+					for(var se1 in vals){
+					 arr = vals[se1];
+					 htmlstr = htmlstr + "<tr><td>"+ count + "</td><td>" + se1 + "</td><td>" + arr[0] + "</td><td>" + arr[1] + "</td><tr>";			 count++;			
+					}			  	
+				    htmlstr = htmlstr + "</table><br>";
+					
+				}else if(se == "promo"){
+				    htmlstr = htmlstr + "<p style='color:black;'><strong>" + vals + "</strong></p>" ;
+				}				
+
+
+			}	
+		
+			sb.innerHTML = existing + htmlstr;
+			break;
+	case "cleanenergy" :
+			document.getElementById("cctv").style.display = "none";
+			document.getElementById("wireless").style.display = "none";
+			document.getElementById("cleanenergy").style.display = "block";
+			document.getElementById("cleanenergy").style.width = "100%";
+			document.getElementById("cleanenergytext").style.fontSize = "200%";
+			var sb = document.getElementById("cleanenergyboard");
+			existing = sb.innerHTML;
+			var htmlstr;
+			for(var se in cleanenergy_contents){
+				var vals = cleanenergy_contents[se];
+				var count =1;
+				if(se == "list"){
+					htmlstr ="<table style='color:black;margin-left:auto;margin-right:auto;'><caption>Solar PV Modules</caption>";
+					htmlstr += "<tr><th>Sl.No</th><th>Model</th><th>PV Watts</th><th>Price</th></tr>";	
+					for(var se1 in vals){
+					 arr = vals[se1];
+					 htmlstr = htmlstr + "<tr><td>"+ count + "</td><td>" + se1 + "</td><td>" + arr[0] + "</td><td>" + arr[1] + "</td><tr>";			 count++;			
+					}			  	
+				    htmlstr = htmlstr + "</table><br>";
+					
+				}else if(se == "promo"){
+				    htmlstr = htmlstr + "<p style='color:black;'><strong>" + vals + "</strong></p>" ;
+				}				
+
+
+			}	
+		
+			sb.innerHTML = existing + htmlstr;
+			break;
+	case "wireless" :
+			document.getElementById("cctv").style.display = "none";
+			document.getElementById("cleanenergy").style.display = "none";
+			document.getElementById("wireless").style.display = "block";
+			document.getElementById("wireless").style.width = "100%";
+			document.getElementById("wirelesstext").style.fontSize = "200%";
+			var sb = document.getElementById("wirelessboard");
+			existing = sb.innerHTML;
+			var htmlstr;
+			for(var se in wireless_contents){
+				var vals = wireless_contents[se];
+				var count =1;
+				if(se == "list"){
+					htmlstr ="<table style='color:black;margin-left:auto;margin-right:auto;'><caption>Solar PV Modules</caption>";
+					htmlstr += "<tr><th>Sl.No</th><th>Model</th><th>PV Watts</th><th>Price</th></tr>";	
+					for(var se1 in vals){
+					 arr = vals[se1];
+					 htmlstr = htmlstr + "<tr><td>"+ count + "</td><td>" + se1 + "</td><td>" + arr[0] + "</td><td>" + arr[1] + "</td><tr>";			 count++;			
+					}			  	
+				    htmlstr = htmlstr + "</table><br>";
+					
+				}else if(se == "promo"){
+				    htmlstr = htmlstr + "<p style='color:black;'><strong>" + vals + "</strong></p>" ;
+				}				
+
+
+			}	
+		
+			sb.innerHTML = existing + htmlstr;
+			break;
+	case "diykits" :
+			document.getElementById("greengadgets").style.display = "none";
+			document.getElementById("tools").style.display = "none";
+			document.getElementById("diykits").style.display = "block";
+			document.getElementById("diykits").style.width = "100%";
+			document.getElementById("diykitstext").style.fontSize = "200%";
+			var sb = document.getElementById("diykitsboard");
+			existing = sb.innerHTML;
+			var htmlstr;
+			for(var se in diykits_contents){
+				var vals = diykits_contents[se];
+				var count =1;
+				if(se == "list"){
+					htmlstr ="<table style='color:black;margin-left:auto;margin-right:auto;'><caption>Solar PV Modules</caption>";
+					htmlstr += "<tr><th>Sl.No</th><th>Model</th><th>PV Watts</th><th>Price</th></tr>";	
+					for(var se1 in vals){
+					 arr = vals[se1];
+					 htmlstr = htmlstr + "<tr><td>"+ count + "</td><td>" + se1 + "</td><td>" + arr[0] + "</td><td>" + arr[1] + "</td><tr>";			 count++;			
+					}			  	
+				    htmlstr = htmlstr + "</table><br>";
+					
+				}else if(se == "promo"){
+				    htmlstr = htmlstr + "<p style='color:black;'><strong>" + vals + "</strong></p>" ;
+				}				
+
+
+			}	
+		
+			sb.innerHTML = existing + htmlstr;
+			break;
+	case "greengadgets" :
+			document.getElementById("diykits").style.display = "none";
+			document.getElementById("tools").style.display = "none";
+			document.getElementById("greengadgets").style.display = "block";
+			document.getElementById("greengadgets").style.width = "100%";
+			document.getElementById("greengadgetstext").style.fontSize = "200%";
+			var sb = document.getElementById("greengadgetsboard");
+			existing = sb.innerHTML;
+			var htmlstr;
+			for(var se in greengadgets_contents){
+				var vals = greengadgets_contents[se];
+				var count =1;
+				if(se == "list"){
+					htmlstr ="<table style='color:black;margin-left:auto;margin-right:auto;'><caption>Solar PV Modules</caption>";
+					htmlstr += "<tr><th>Sl.No</th><th>Model</th><th>PV Watts</th><th>Price</th></tr>";	
+					for(var se1 in vals){
+					 arr = vals[se1];
+					 htmlstr = htmlstr + "<tr><td>"+ count + "</td><td>" + se1 + "</td><td>" + arr[0] + "</td><td>" + arr[1] + "</td><tr>";			 count++;			
+					}			  	
+				    htmlstr = htmlstr + "</table><br>";
+					
+				}else if(se == "promo"){
+				    htmlstr = htmlstr + "<p style='color:black;'><strong>" + vals + "</strong></p>" ;
+				}				
+
+
+			}	
+		
+			sb.innerHTML = existing + htmlstr;
+			break;
+	case "tools" :
+			document.getElementById("diykits").style.display = "none";
+			document.getElementById("greengadgets").style.display = "none";
+			document.getElementById("tools").style.display = "block";
+			document.getElementById("tools").style.width = "100%";
+			document.getElementById("toolstext").style.fontSize = "200%";
+			var sb = document.getElementById("toolsboard");
+			existing = sb.innerHTML;
+			var htmlstr;
+			for(var se in tools_contents){
+				var vals = tools_contents[se];
+				var count =1;
+				if(se == "list"){
+					htmlstr ="<table style='color:black;margin-left:auto;margin-right:auto;'><caption>Solar PV Modules</caption>";
+					htmlstr += "<tr><th>Sl.No</th><th>Model</th><th>PV Watts</th><th>Price</th></tr>";	
+					for(var se1 in vals){
+					 arr = vals[se1];
+					 htmlstr = htmlstr + "<tr><td>"+ count + "</td><td>" + se1 + "</td><td>" + arr[0] + "</td><td>" + arr[1] + "</td><tr>";			 count++;			
+					}			  	
+				    htmlstr = htmlstr + "</table><br>";
+					
+				}else if(se == "promo"){
+				    htmlstr = htmlstr + "<p style='color:black;'><strong>" + vals + "</strong></p>" ;
+				}				
+
+
+			}	
+		
+			sb.innerHTML = existing + htmlstr;
+			break;
+    default: 
+	}
+}
+
+function hidepage(pagename){
+	
+	switch (pagename){
+
+	case "news" :
+			document.getElementById("sales").style.display = "block";
+			document.getElementById("solar").style.display = "block";
+			document.getElementById("news").style.display = "block";
+			document.getElementById("news").style.width = document.getElementById("divwidth").value + "px";
+			document.getElementById("newsboard").innerHTML = existing;
+			document.getElementById("newstext").style.fontSize = "75%";
+	
+			break;
+	case "sales" :
+			document.getElementById("news").style.display = "block";
+			document.getElementById("solar").style.display = "block";
+			document.getElementById("sales").style.display = "block";
+			document.getElementById("sales").style.width = document.getElementById("divwidth").value + "px";
+			document.getElementById("salesboard").innerHTML = existing;
+			document.getElementById("salestext").style.fontSize = "75%";
+			
+			break;	
+	case "solar" :
+			document.getElementById("news").style.display = "block";
+			document.getElementById("sales").style.display = "block";
+			document.getElementById("solar").style.display = "block";
+			document.getElementById("solar").style.width = document.getElementById("divwidth").value + "px";
+			document.getElementById("solarboard").innerHTML = existing;
+			document.getElementById("solartext").style.fontSize = "75%";
+			break;	
+	case "cctv" :
+			document.getElementById("cleanenergy").style.display = "block";
+			document.getElementById("wireless").style.display = "block";
+			document.getElementById("cctv").style.display = "block";
+			document.getElementById("cctv").style.width = document.getElementById("divwidth").value + "px";
+			document.getElementById("cctvboard").innerHTML = existing;
+			document.getElementById("cctvtext").style.fontSize = "75%";
+			break;	
+
+	case "cleanenergy" :
+			document.getElementById("cctv").style.display = "block";
+			document.getElementById("wireless").style.display = "block";
+			document.getElementById("cleanenergy").style.display = "block";
+			document.getElementById("cleanenergy").style.width = document.getElementById("divwidth").value + "px";
+			document.getElementById("cleanenergyboard").innerHTML = existing;
+			document.getElementById("cleanenergytext").style.fontSize = "75%";
+			break;	
+	case "wireless" :
+			document.getElementById("cctv").style.display = "block";
+			document.getElementById("cleanenergy").style.display = "block";
+			document.getElementById("wireless").style.display = "block";
+			document.getElementById("wireless").style.width = document.getElementById("divwidth").value + "px";
+			document.getElementById("wirelessboard").innerHTML = existing;
+			document.getElementById("wirelesstext").style.fontSize = "75%";
+			break;	
+	case "diykits" :
+			document.getElementById("greengadgets").style.display = "block";
+			document.getElementById("tools").style.display = "block";
+			document.getElementById("diykits").style.display = "block";
+			document.getElementById("diykits").style.width = document.getElementById("divwidth").value + "px";
+			document.getElementById("diykitsboard").innerHTML = existing;
+			document.getElementById("diykitstext").style.fontSize = "75%";
+			break;	
+	case "greengadgets" :
+			document.getElementById("diykits").style.display = "block";
+			document.getElementById("tools").style.display = "block";
+			document.getElementById("greengadgets").style.display = "block";
+			document.getElementById("greengadgets").style.width = document.getElementById("divwidth").value + "px";
+			document.getElementById("greengadgetsboard").innerHTML = existing;
+			document.getElementById("greengadgetstext").style.fontSize = "75%";
+			break;	
+	case "tools" :
+			document.getElementById("diykits").style.display = "block";
+			document.getElementById("greengadgets").style.display = "block";
+			document.getElementById("tools").style.display = "block";
+			document.getElementById("tools").style.width = document.getElementById("divwidth").value + "px";
+			document.getElementById("toolsboard").innerHTML = existing;
+			document.getElementById("toolstext").style.fontSize = "75%";
+			break;	
+    default: 
+	}
+}
+
+
 </script>
 
-<div>
-	<a class="twitter-timeline" href="https://twitter.com/sciomathman">Tweets by sciomathman</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-	</div>
+
 </body>
 </html>
