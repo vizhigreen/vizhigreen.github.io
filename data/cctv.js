@@ -1,0 +1,1 @@
+var cctv_contents = {list:{Model1:"500",Model2:"800",Model3:"1100"},promo:"CCTV serves both as a watchdog and as well as a suspect identification. We provide simple to install plug and play CCTV products for your needs. By integrating CCTV with WiFi and Cloud storage we can enhance real-time monitoring and storage capabilities"};

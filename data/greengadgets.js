@@ -1,0 +1,1 @@
+var greengadgets_contents = {promo:"Gadgets serves to complete one or many useful tasks at hand. Green gadgets are those which performs the same as the normal gadgets do with one unique iconic feature and that is they are environmentally conscious and which means they study and react to environment."};

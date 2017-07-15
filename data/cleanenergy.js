@@ -1,0 +1,1 @@
+var cleanenergy_contents = {promo:"Clean energy systems(CES) are active power sources producing energy out of environmentally clean principles. The current list of CES includes DC Dynamos, Thermo-Electric modules and Piezo-Electric modules. "};

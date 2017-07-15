@@ -1,0 +1,1 @@
+var tools_contents = {promo:"We provide software tools and utilities for the products in our catalogue which are having the recommendations or directions while we put them to use. Both in-house and third party tools are made available for the users. Users can also upload their own developed tools and share it with other users and make use of them."};
