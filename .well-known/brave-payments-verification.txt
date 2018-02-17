@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: vizhigreen.github.io
+Token: 7775cd6bec61f81f36bba54d3f3a0506de949e15f5fcf6a8fb3d4910d4b35992
