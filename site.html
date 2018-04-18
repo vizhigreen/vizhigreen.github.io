@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+
+<title>Vizhi Green Expressions</title>
+<link rel="stylesheet" type="text/css" media="all" href="css/w3.css">
+</head>
+<style>
+html,body{
+width:100%;
+height:100%;
+}
+.page_background{
+float : left;
+position:absolute;
+z-index:-1;
+width:100%;
+height:100%;
+display:none;
+}
+.page_splash{
+display:block;
+width:100%;
+height:100%;
+}
+img{
+ width:70%;
+}
+</style>
+<script type="text/javascript" src="data/vge_background.js"></script>
+<script type="text/javascript" src="data/vge_banner.js"></script>
+<script type="text/javascript" src="js/page.js"></script> 
+<body>
+<div id="vge_svg" class="page_splash"></div>
+
+<div id="page_back" class="page_background">
+</div>
+<script>
+(function(){
+getVGEBanner("svg001");
+setVGEbackground();
+})();
+</script>
+<div id="interface" style="z-index:10;width:100%;height:100%;display:none;">
+<div class="w3-row" style="height:33.33%;">
+  <div class="w3-col s4 w3-green w3-center w3-border w3-hover-border-yellow w3-hover-none" style="height:100%;"><a href="pages/solar.html"><p>Solar</p><img src="images/solar/main.svg" /></a></div>
+  <div class="w3-col s4 w3-dark-grey w3-center w3-border w3-hover-border-white w3-hover-none" style="height:100%;"><a href="pages/cctv.html"><p>CCTV</p><img src="images/cctv/main.svg" /></a></div>
+  <div class="w3-col s4 w3-deep-orange w3-center w3-border w3-hover-border-black w3-hover-none" style="height:100%;"><a href="pages/wireless.html"><p>Wireless Control</p><img src="images/wireless/main.svg" /></a></div>
+</div>
+<div class="w3-row" style="height:33.33%;">
+  <div class="w3-col s4 w3-dark-grey w3-center w3-border w3-hover-border-white w3-hover-none" style="height:100%;"><a href="pages/greengadgets.html"><p>Green Gadgets</p><img src="images/greengadgets/main.svg" /></a></div>
+  <div class="w3-col s4 w3-brown w3-center w3-border w3-hover-border-white w3-hover-none" style="height:100%;"><a href="pages/cleanenergy.html"><p>Clean Energy Systems</p><img src="images/cleanenergy/main.svg" /></a></div>
+  <div class="w3-col s4 w3-dark-grey w3-center w3-border w3-hover-border-white w3-hover-none" style="height:100%;"><a href="pages/diykits.html"><p>DIY Kits</p><img src="images/diykits/main.svg" /></a></div>
+</div>
+<div class="w3-row" style="height:33.33%;">
+  <div class="w3-col s4 w3-teal w3-center w3-border w3-hover-border-black w3-hover-none" style="height:100%;"><a href="pages/about.html"><p>About</p><img src="images/about/main.svg" /></a></div>
+  <div class="w3-col s4 w3-dark-grey w3-center w3-border w3-hover-border-white w3-hover-none" style="height:100%;"><a href="pages/tools.html"><p>Tools</p><img src="images/tools/main.svg" /></a></div>
+  <div class="w3-col s4 w3-orange w3-center w3-border w3-hover-border-yellow w3-hover-none" style="height:100%;"><a href="pages/contact.html"><p>Contact</p><img src="images/contact/main.svg" /></a></div>
+</div>
+</div>
+<div id="page_content" style="z-index:10;width:100%;height:100%;display:none;">
+</div>
+<div id="page_nav" style="z-index:20;width:100%;height:100%;display:none;">
+</div>
+
+</body>
+</html>
