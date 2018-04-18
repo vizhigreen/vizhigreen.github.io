@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="910"
+   height="560"
+   viewBox="0 0 910 560"
+   sodipodi:docname="vge_banner_link.svg">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <font
+       horiz-adv-x="1024"
+       id="font3453"
+       inkscape:label="font 1"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="45"
+       vert-origin-y="90"
+       vert-adv-y="90">
+      <font-face
+         units-per-em="1024"
+         id="font-face3455"
+         font-family="SVGFont 1" />
+      <missing-glyph
+         d="M0,0h1000v1024h-1000z"
+         id="missing-glyph3457" />
+    </font>
+    <font
+       horiz-adv-x="1024"
+       id="font3459"
+       inkscape:label="font 2"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="45"
+       vert-origin-y="90"
+       vert-adv-y="90">
+      <font-face
+         units-per-em="1024"
+         id="font-face3461"
+         font-family="SVGFont 2" />
+      <missing-glyph
+         d="M0,0h1000v1024h-1000z"
+         id="missing-glyph3463" />
+    </font>
+    <filter
+       inkscape:label="Channel Transparency"
+       style="color-interpolation-filters:sRGB"
+       id="filter3365">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -1 0.5 0.5 1 0 "
+         in="SourceGraphic"
+         result="colormatrix"
+         id="feColorMatrix3367" />
+      <feComposite
+         in="colormatrix"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3369" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1307"
+     inkscape:window-height="744"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="0.63823703"
+     inkscape:cx="438.76526"
+     inkscape:cy="254.0379"
+     inkscape:window-x="59"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.75px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="59.079563"
+     y="471.97031"
+     id="text3443"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="59.079563"
+       y="471.97031"
+       id="tspan3447" /><tspan
+       sodipodi:role="line"
+       x="59.079563"
+       y="506.47867"
+       id="tspan3451"
+       style="font-size:30px">•Solar •CCTV •Wireless •DIY •Clean Energy •Green Gadgets</tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#4d4d4d"
+     d="m 79.929155,536.88748 -2.223659,-2.66016 c -0.443063,-0.52786 -1.249728,-0.58503 -1.798001,-0.12524 l -1.340026,1.11991 c -0.0741,-0.0518 -0.150323,-0.0994 -0.230664,-0.15567 -0.738358,-0.49979 -1.748809,-1.18452 -2.767408,-2.40459 -1.021819,-1.22201 -1.517142,-2.33992 -1.879423,-3.15598 -0.03841,-0.0872 -0.07486,-0.17066 -0.111166,-0.24898 l 0.899274,-0.75046 0.442231,-0.37033 c 0.549066,-0.45915 0.63497,-1.26301 0.193178,-1.79212 l -2.223644,-2.66076 c -0.441845,-0.52838 -1.248896,-0.5858 -1.797996,-0.12524 l -0.749994,0.63047 0.0177,0.0224 c -0.257064,0.27393 -0.48023,0.5961 -0.656428,0.9495 -0.163272,0.33669 -0.275504,0.66195 -0.34292,0.99195 -0.56126,2.64399 0.441859,5.19578 3.460179,8.80664 4.172672,4.99118 7.895697,4.97475 8.056827,4.97252 0.350622,-0.009 0.690654,-0.0628 1.040174,-0.16356 0.37551,-0.11151 0.732235,-0.27152 1.047057,-0.47552 l 0.01045,0.0119 0.758215,-0.62048 c 0.547992,-0.45911 0.634508,-1.26305 0.192985,-1.79274 m 7.74209,-5.89072 A 14.999978,14.999978 0 0 1 72.667834,546 14.999978,14.999978 0 0 1 57.668186,530.99973 a 14.999978,14.999978 0 0 1 15.000322,-14.9997 14.999978,14.999978 0 0 1 14.999648,15.00025"
+     id="path9213" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.75px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="92.125877"
+     y="543.68262"
+     id="text9234"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan9236"
+       x="92.125877"
+       y="543.68262"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">+91 9487066151</tspan></text>
+  <text
+     x="287.71991"
+     y="539.17316"
+     font-size="144px"
+     style="font-size:32.43928146px;font-family:Arial"
+     id="text9259">@</text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.75px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="326.37347"
+     y="540.73877"
+     id="text9234-4"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan9236-9"
+       x="326.37347"
+       y="540.73877"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">loginvizhi@gmail.com</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.75px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="604.00647"
+     y="542.0083"
+     id="text9234-4-9"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan9236-9-3"
+       x="604.00647"
+       y="542.0083"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">#189, Bazaar St.  CDM</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:58.75px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="60.184738"
+     y="461.50317"
+     id="text3357"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3359"
+       x="60.184738"
+       y="461.50317"
+       style="font-size:58.75px"><tspan
+   style="fill:#ff6600"
+   id="tspan3363">VIZHI</tspan><tspan
+   style="fill:#00ff00"
+   id="tspan3361"> GREEN</tspan> EXPRESSIONS</tspan></text>
+  <script
+     id="script32">
+(function () {
+   console.log(&quot;hello&quot;);
+   /*var svgpointer = document.getElementById(&quot;pointer&quot;);
+    var svgbtnplus = document.getElementById(&quot;increasebtn&quot;);
+     var svgbtnminus = document.getElementById(&quot;decreasebtn&quot;);
+   
+    svgpointer.addEventListener (&quot;mousedown&quot;, function (e) {mouseDown(e)}, false);
+                svgpointer.addEventListener (&quot;mouseup&quot;, function (e) {mouseUp(e)}, false);
+                 svgbtnplus.addEventListener (&quot;mousedown&quot;, function (e) {degreeplus(e)}, false);
+                  svgbtnminus.addEventListener (&quot;mousedown&quot;, function (e) {degreeminus(e)}, false);
+                  svgpointer.addEventListener (&quot;mouseover&quot;, function (e) {mouseOver(e)}, false);
+                
+                  
+    var svgblock = document.getElementById(&quot;knob&quot;);    
+    var boxvalues = svgblock.getBoundingClientRect();
+    var pointerdim = svgpointer.getBoundingClientRect();
+      var center_x= pointerdim.left + pointerdim.width/2  - boxvalues.left;
+      var center_y= pointerdim.top + pointerdim.height/2 - boxvalues.top ;
+      svgpointer.style.webkitTransformOrigin = &quot;&quot; + center_x + &quot;px &quot; + center_y + &quot;px&quot;;
+    svgpointer.style.mozTransformOrigin    = &quot;&quot; + center_x + &quot;px &quot; + center_y + &quot;px&quot; ;
+    svgpointer.style.msTransformOrigin     = &quot;&quot; + center_x  + &quot;px &quot; + center_y + &quot;px&quot;;
+      svgpointer.style.oTransformOrigin      = &quot;&quot; + center_x + &quot;px &quot; + center_y + &quot;px&quot;;
+    svgpointer.style.transformOrigin       = &quot;&quot; + center_x + &quot;px &quot; + center_y + &quot;px&quot;;
+      
+      
+     document.getElementById(&quot;demo&quot;).innerHTML = &quot;Knob:&quot;+&quot;L:&quot;+ boxvalues.left + &quot;/R:&quot; + boxvalues.top + &quot;/w:&quot; + boxvalues.width + &quot;/h:&quot; + boxvalues.height + &quot;pointer:&quot; +&quot;L:&quot;+ pointerdim.left + &quot;/R:&quot; + pointerdim.top + &quot;/w:&quot; + pointerdim.width + &quot;/h:&quot; + pointerdim.height +&quot;center:&quot; + &quot;x:&quot; + center_x + &quot;y:&quot; + center_y;*/
+                  
+})();
+</script>
+  <image
+     sodipodi:absref="/home/athman/Vizhi Green Expressions/Website/images/vge_eye.png"
+     y="18.685434"
+     x="63.412506"
+     id="image3452"
+     xlink:href="file:///home/athman/Vizhi%20Green%20Expressions/Website/images/vge_eye.png"
+     preserveAspectRatio="none"
+     height="385.23007"
+     width="797.59644" />
+  <image
+     sodipodi:absref="/home/athman/Vizhi Green Expressions/Website/images/vge_globe.png"
+     y="53.800663"
+     x="297.18173"
+     id="image3463"
+     xlink:href="file:///home/athman/Vizhi%20Green%20Expressions/Website/images/vge_globe.png"
+     preserveAspectRatio="none"
+     height="340"
+     width="330" />
+</svg>
