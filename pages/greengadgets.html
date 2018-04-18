@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Green Gadgets</title>
+<!--
+<link rel="stylesheet" type="text/css" href="yourcss.css" />
+<script src="yourscript.js"></script>
+-->
+<style>
+html,body{
+width:100%;
+height:100%;
+background-color: #a0a0a0;	
+}
+	p{
+	padding:0px 5px;
+word-wrap: break-word;
+	}
+	.pageborder {
+	background-color: #606060;	
+	padding:15px 15px;
+	width:80%;
+	margin: auto;
+	}
+	.pageborder .divpage {
+	
+	padding:10px 10px;
+	background-color: #FFFFFF;	
+	}
+	.pageborder.divpage .appcontainer {
+	margin:0;	
+	padding:10px 10px;
+	background-color: #E6E6E6;
+	position:relative;
+	z-index:1;
+	}
+	.radius { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
+.computeicon {
+    background-color: #666666;
+    color: white;
+    padding:10px 10px;
+    margin: 10px 0px;
+    -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;
+    cursor: pointer;
+}
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+#animated_div {
+  width:10%;
+  padding:10px 5px;
+  background: #000000;
+text-align:center;
+color: #ffffff;
+position: relative;
+font-weight:bold;
+animation:animated_div 10s infinite;
+-moz-animation:animated_div 10s infinite;
+-webkit-animation:animated_div 10s infinite;
+-o-animation:animated_div 10s infinite;
+border-radius:5px;
+  -webkit-border-radius:5px;
+}
+
+@keyframes animated_div
+{
+0%		{transform: rotate(0deg);left:0px;}
+25%		{transform: rotate(20deg);left:0px;}
+50%		{transform: rotate(0deg);left:80%;}
+55%		{transform: rotate(0deg);left:80%;}
+70%		{transform: rotate(0deg);left:80%;background:#ffffff;color: #ffffff;}
+100%	{transform: rotate(-360deg);left:0px;}
+}
+
+@-webkit-keyframes animated_div
+{
+0%		{-webkit-transform: rotate(0deg);left:0px;}
+25%		{-webkit-transform: rotate(20deg);left:0px;}
+50%		{-webkit-transform: rotate(0deg);left:80%;}
+55%		{-webkit-transform: rotate(0deg);left:80%;}
+70%		{-webkit-transform: rotate(0deg);left:80%;background:#ffffff;color: #ffffff;}
+100%	{-webkit-transform: rotate(-360deg);left:0px;}
+}
+
+@-moz-keyframes animated_div
+{
+0%   {-moz-transform: rotate(0deg);left:0px;}
+25%  {-moz-transform: rotate(20deg);left:0px;}
+50%  {-moz-transform: rotate(0deg);left:80%;}
+55%  {-moz-transform: rotate(0deg);left:80%;}
+70%  {-moz-transform: rotate(0deg);left:80%;background:#ffffff;color: #ffffff;}
+100% {-moz-transform: rotate(-360deg);left:0px;}
+}
+
+@-o-keyframes animated_div
+{
+0%   {transform: rotate(0deg);left:0px;}
+25%  {transform: rotate(20deg);left:0px;}
+50%  {transform: rotate(0deg);left:80%;}
+55%  {transform: rotate(0deg);left:80%;}
+70%  {transform: rotate(0deg);left:80%;background:#ffffff;color: #ffffff;}
+100% {transform: rotate(-360deg);left:0px;}
+}
+
+</style>
+<meta name="viewport" content="width=device-width">
+</head>
+<body>
+<script>
+document.addEventListener("DOMContentLoaded", function(event){
+    console.log("DOM fully loaded and parsed");
+    document.getElementById('divloadhome').addEventListener("click", function(){window.open("../site.html","_self");});
+});
+</script>
+<div class="pageborder">
+<div class="divpage">
+	
+ 	<div class="appcontainer">	
+ 		<div id="divloadhome"class="computeicon"><a id="load_index" style="font-style: italic;"><span style="font-size:x-large;color:white;">◀</span> Go To : Vizhi Green Expressions</a></div>
+ 		<script>
+ 		var homelink = document.getElementById("divloadhome");
+homelink.addEventListener("mouseover", function(){console.log("div home over"); homelink.style.background = "radial-gradient(white, orange)"; });
+homelink.addEventListener("mouseout", function(){console.log("div home out");homelink.style.background = "#666666";});
+ 		</script>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="../images/greengadgets/greengadgets1.svg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="../images/greengadgets/greengadgets2.svg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="../images/greengadgets/greengadgets3.svg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+
+
+(function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+})();
+
+</script>
+
+
+
+<p><h3>{ Content status: "pending" }</h3></p>
+
+<img id="navleft" src="../images/arrowl.svg" style="position:fixed;z-index:50;left:0;top:50%;"/>
+<img id="navright" src="../images/arrowr.svg" style="position:fixed;z-index:50;right:0;top:50%;"/>
+<img id="navtop" src="../images/arrowu.svg" style="width:5%;position:fixed;z-index:50;top:0;left:45%;"/>
+<img id="navbottom" src="../images/arrowb.svg" style="width:5%;position:fixed;z-index:50;bottom:0;left:45%;"/>
+<script>
+var navl = document.getElementById("navleft");
+navl.addEventListener("mouseover", function(){console.log("nav over"); document.getElementById("navleft").style.background = "radial-gradient(DeepSkyBlue, black)"; });
+navl.addEventListener("mouseout", function(){console.log("nav out"); document.getElementById("navleft").style.background = "";});
+navl.addEventListener("click", function(){console.log("nav click");window.open("../pages/diykits.html","_self");});
+var navr = document.getElementById("navright");
+navr.addEventListener("mouseover", function(){console.log("nav over"); document.getElementById("navright").style.background = "radial-gradient(DeepSkyBlue, black)";});
+navr.addEventListener("mouseout", function(){console.log("nav out"); document.getElementById("navright").style.background = "";});
+navr.addEventListener("click", function(){console.log("nav click");window.open("../pages/cleanenergy.html","_self");});
+var navu = document.getElementById("navtop");
+navu.addEventListener("mouseover", function(){console.log("nav over"); document.getElementById("navtop").style.background = "radial-gradient(DeepSkyBlue, black)";});
+navu.addEventListener("mouseout", function(){console.log("nav out"); document.getElementById("navtop").style.background = "";});
+navu.addEventListener("click", function(){console.log("nav click");window.open("../pages/solar.html","_self");});
+var navb = document.getElementById("navbottom");
+navb.addEventListener("mouseover", function(){console.log("nav over"); document.getElementById("navbottom").style.background = "radial-gradient(DeepSkyBlue, black)";});
+navb.addEventListener("mouseout", function(){console.log("nav out"); document.getElementById("navbottom").style.background = "";});
+navb.addEventListener("click", function(){console.log("nav click");window.open("../pages/about.html","_self");});
+</script>
+
+
+</div>
+</div>
+</div>
+<div id="animated_div">[Products]<br><span style="font-size:14px;">To be Updated soon...</span></div>
+</body>
+</html>
