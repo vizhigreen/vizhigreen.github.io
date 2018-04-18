@@ -17,4 +17,13 @@ var cctv_slides = {actual:"images/cctv.svg",file1:"images/cctv/cctv.svg",file2:"
 var cleanenergy_slides = {actual:"images/cleanenergy.svg",file1:"images/cleanenergy/dynamo.svg",file2:"images/cleanenergy/dynamo_working.svg",file3:"images/cleanenergy/handcrank.svg",file4:"images/cleanenergy/piezo.svg",file5:"images/cleanenergy/piezoenergy.svg"};
 var diykits_slides = {actual:"images/diykits.svg",file1:"images/diykits/dc_fan.svg",file2:"images/diykits/relayboard.svg",file3:"images/diykits/usb_female.svg",file4:"images/diykits/usb_female_pcb.svg",file5:"images/diykits/usb_female_pcb2.svg",file6:"images/diykits/usb_male.svg"};
 var greengadgets_slides = {actual:"images/greengadgets.svg",file1:"images/greengadgets/energytimer.svg",file2:"images/greengadgets/timerswitch.svg"};
+//add listeners
 
+
+
+/*document.addEventListener("DOMContentLoaded", function(event){
+    console.log("DOM fully loaded and parsed");
+    document.getElementById('app_data_load').addEventListener("click", load_data);
+     document.getElementById('app_data_process').addEventListener("click", process_data);
+      document.getElementById('app_data_clear').addEventListener("click", ClearTextArea);
+});*/
